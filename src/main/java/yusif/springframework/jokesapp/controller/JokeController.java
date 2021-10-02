@@ -1,9 +1,11 @@
 package yusif.springframework.jokesapp.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import yusif.springframework.jokesapp.services.JokeService;
 
+@Controller
 public class JokeController {
 
     private final JokeService jokeService;
